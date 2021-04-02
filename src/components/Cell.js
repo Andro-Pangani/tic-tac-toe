@@ -23,8 +23,6 @@ export default memo(function Cell({ value, coords, winner }) {
     }
   };
 
-  // const color = value === 'O' ? 'rgb(49 160 255)'
-
   return (
     <div
       style={
@@ -52,7 +50,4 @@ const style = {
   color: 'rgb(137 212 255)',
   fontSize: '20px',
   fontFamily: 'cursive',
-  textFillColor: 'unset',
 };
-
-// export default memo(Cell);

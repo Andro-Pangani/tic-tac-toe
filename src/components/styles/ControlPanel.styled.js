@@ -42,10 +42,4 @@ export const Wrapper = styled.div`
     border: 2px solid transparent;
     color: #0c80d2;
   }
-
-  /* input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  } */
 `;

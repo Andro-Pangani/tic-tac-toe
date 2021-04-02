@@ -91,7 +91,6 @@ export default function Game() {
 
   return (
     <Wrapper>
-      {/* <button onClick={handleClick}>test Memo</button> */}
       <ControlPanel
         setupGrid={setupGrid}
         results={results}

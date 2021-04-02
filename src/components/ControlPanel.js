@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from 'react';
+import React, { memo, useState } from 'react';
 import { Wrapper } from './styles/ControlPanel.styled';
 
 export default memo(function ControlPanel({
@@ -11,7 +11,7 @@ export default memo(function ControlPanel({
     columns: 0,
     gamePoints: 0,
   });
-  // console.log(results, '>>>>>>>>');
+
   const inputOnChange = (input) => {
     setGameProperties({
       ...gameProperties,
@@ -26,10 +26,6 @@ export default memo(function ControlPanel({
   const playAgainHandler = () => {
     startNewGame();
   };
-
-  useEffect(() => {
-    // console.log(gameProperties, ' size');
-  });
 
   if (results.finished) {
     return (
